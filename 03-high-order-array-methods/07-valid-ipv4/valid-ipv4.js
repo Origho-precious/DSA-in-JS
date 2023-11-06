@@ -5,8 +5,7 @@ const isValidIPv4 = (ipAddress) => {
 		return false;
 	}
 
-  const map = octets.map((octet) => {
-    
+	const map = octets.map((octet) => {
 		if (
 			Number(octet).toString() !== octet ||
 			Number(octet) > 255 ||
